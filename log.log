@@ -1,0 +1,325 @@
+JSON: {"pendencias":[{"data_hora":"2020-01-21 13:58:57","deleted":true,"descricao":"Comece a escrever\r\n<p>Fsjdfhksjdfhksjdfhksdjf<\/p>\nGghhgggg","id":93,"sync":true,"titulo":"Teste"},{"data_hora":"2020-01-21 13:59:39","deleted":false,"descricao":"Nh","id":95,"sync":true,"titulo":"Vbhnnn"}]}
+
+Request: 
+
+Array
+(
+    [pendencias] => Array
+        (
+            [0] => Array
+                (
+                    [data_hora] => 2020-01-21 13:58:57
+                    [deleted] => 1
+                    [descricao] => Comece a escrever
+<p>Fsjdfhksjdfhksjdfhksdjf</p>
+Gghhgggg
+                    [id] => 93
+                    [sync] => 1
+                    [titulo] => Teste
+                )
+
+            [1] => Array
+                (
+                    [data_hora] => 2020-01-21 13:59:39
+                    [deleted] => 
+                    [descricao] => Nh
+                    [id] => 95
+                    [sync] => 1
+                    [titulo] => Vbhnnn
+                )
+
+        )
+
+)
+
+
+
+Pendência:
+Array
+(
+    [data_hora] => 2020-01-21 13:58:57
+    [deleted] => 1
+    [descricao] => Comece a escrever
+<p>Fsjdfhksjdfhksjdfhksdjf</p>
+Gghhgggg
+    [id] => 93
+    [sync] => 1
+    [titulo] => Teste
+)
+
+JSON: {"pendencias":[{"data_hora":"2020-01-21 13:58:57","deleted":true,"descricao":"Comece a escrever\r\n<p>Fsjdfhksjdfhksjdfhksdjf<\/p>\nGghhgggg","id":93,"sync":true,"titulo":"Teste"},{"data_hora":"2020-01-21 13:59:39","deleted":false,"descricao":"Nh","id":95,"sync":true,"titulo":"Vbhnnn"}]}
+
+Request: 
+
+Array
+(
+    [pendencias] => Array
+        (
+            [0] => Array
+                (
+                    [data_hora] => 2020-01-21 13:58:57
+                    [deleted] => 1
+                    [descricao] => Comece a escrever
+<p>Fsjdfhksjdfhksjdfhksdjf</p>
+Gghhgggg
+                    [id] => 93
+                    [sync] => 1
+                    [titulo] => Teste
+                )
+
+            [1] => Array
+                (
+                    [data_hora] => 2020-01-21 13:59:39
+                    [deleted] => 
+                    [descricao] => Nh
+                    [id] => 95
+                    [sync] => 1
+                    [titulo] => Vbhnnn
+                )
+
+        )
+
+)
+
+
+
+ID: 93
+Pendências deletar: Array
+(
+    [0] => 93
+)
+
+JSON: {"pendencias":[{"data_hora":"2020-01-21 13:58:57","deleted":true,"descricao":"Comece a escrever\r\n<p>Fsjdfhksjdfhksjdfhksdjf<\/p>\nGghhgggg","id":93,"sync":true,"titulo":"Teste"},{"data_hora":"2020-01-21 13:59:39","deleted":false,"descricao":"Nh","id":95,"sync":true,"titulo":"Vbhnnn"}]}
+
+Request: 
+
+Array
+(
+    [pendencias] => Array
+        (
+            [0] => Array
+                (
+                    [data_hora] => 2020-01-21 13:58:57
+                    [deleted] => 1
+                    [descricao] => Comece a escrever
+<p>Fsjdfhksjdfhksjdfhksdjf</p>
+Gghhgggg
+                    [id] => 93
+                    [sync] => 1
+                    [titulo] => Teste
+                )
+
+            [1] => Array
+                (
+                    [data_hora] => 2020-01-21 13:59:39
+                    [deleted] => 
+                    [descricao] => Nh
+                    [id] => 95
+                    [sync] => 1
+                    [titulo] => Vbhnnn
+                )
+
+        )
+
+)
+
+
+
+ID: 93
+Pendências deletar: Array
+(
+    [0] => 93
+)
+
+JSON: {"pendencias":[{"data_hora":"2020-01-21 13:58:57","deleted":false,"descricao":"Comece a escrever\r\n<p>Fsjdfhksjdfhksjdfhksdjf<\/p>\nGghhgggg","id":93,"sync":true,"titulo":"Teste"},{"data_hora":"2020-01-21 13:59:39","deleted":true,"descricao":"Nh","id":95,"sync":true,"titulo":"Vbhnnn"}]}
+
+Request: 
+
+Array
+(
+    [pendencias] => Array
+        (
+            [0] => Array
+                (
+                    [data_hora] => 2020-01-21 13:58:57
+                    [deleted] => 
+                    [descricao] => Comece a escrever
+<p>Fsjdfhksjdfhksjdfhksdjf</p>
+Gghhgggg
+                    [id] => 93
+                    [sync] => 1
+                    [titulo] => Teste
+                )
+
+            [1] => Array
+                (
+                    [data_hora] => 2020-01-21 13:59:39
+                    [deleted] => 1
+                    [descricao] => Nh
+                    [id] => 95
+                    [sync] => 1
+                    [titulo] => Vbhnnn
+                )
+
+        )
+
+)
+
+
+
+ID: 95
+Pendências deletar: Array
+(
+    [0] => 95
+)
+
+Linhas excluídas: 1
+JSON: {"pendencias":[{"data_hora":"2020-01-21 13:58:57","deleted":false,"descricao":"Comece a escrever\r\n<p>Fsjdfhksjdfhksjdfhksdjf<\/p>\nGghhgggg","id":93,"sync":true,"titulo":"Teste"},{"data_hora":"2020-01-21 14:24:35","deleted":false,"descricao":"Bhh","id":96,"sync":false,"titulo":"1"},{"data_hora":"2020-01-21 14:24:44","deleted":false,"descricao":"Bbhj","id":97,"sync":false,"titulo":"2"}]}
+
+Request: 
+
+Array
+(
+    [pendencias] => Array
+        (
+            [0] => Array
+                (
+                    [data_hora] => 2020-01-21 13:58:57
+                    [deleted] => 
+                    [descricao] => Comece a escrever
+<p>Fsjdfhksjdfhksjdfhksdjf</p>
+Gghhgggg
+                    [id] => 93
+                    [sync] => 1
+                    [titulo] => Teste
+                )
+
+            [1] => Array
+                (
+                    [data_hora] => 2020-01-21 14:24:35
+                    [deleted] => 
+                    [descricao] => Bhh
+                    [id] => 96
+                    [sync] => 
+                    [titulo] => 1
+                )
+
+            [2] => Array
+                (
+                    [data_hora] => 2020-01-21 14:24:44
+                    [deleted] => 
+                    [descricao] => Bbhj
+                    [id] => 97
+                    [sync] => 
+                    [titulo] => 2
+                )
+
+        )
+
+)
+
+
+
+JSON: {"pendencias":[{"data_hora":"2020-01-21 13:58:57","deleted":false,"descricao":"Comece a escrever\r\n<p>Fsjdfhksjdfhksjdfhksdjf<\/p>\nGghhgggg","id":93,"sync":true,"titulo":"Teste"},{"data_hora":"2020-01-21 14:24:35","deleted":false,"descricao":"Bhh","id":96,"sync":true,"titulo":"1"},{"data_hora":"2020-01-21 14:24:44","deleted":false,"descricao":"Bbhj","id":97,"sync":true,"titulo":"2"}]}
+
+Request: 
+
+Array
+(
+    [pendencias] => Array
+        (
+            [0] => Array
+                (
+                    [data_hora] => 2020-01-21 13:58:57
+                    [deleted] => 
+                    [descricao] => Comece a escrever
+<p>Fsjdfhksjdfhksjdfhksdjf</p>
+Gghhgggg
+                    [id] => 93
+                    [sync] => 1
+                    [titulo] => Teste
+                )
+
+            [1] => Array
+                (
+                    [data_hora] => 2020-01-21 14:24:35
+                    [deleted] => 
+                    [descricao] => Bhh
+                    [id] => 96
+                    [sync] => 1
+                    [titulo] => 1
+                )
+
+            [2] => Array
+                (
+                    [data_hora] => 2020-01-21 14:24:44
+                    [deleted] => 
+                    [descricao] => Bbhj
+                    [id] => 97
+                    [sync] => 1
+                    [titulo] => 2
+                )
+
+        )
+
+)
+
+
+
+JSON: {"pendencias":[{"data_hora":"2020-01-21 13:58:57","deleted":false,"descricao":"Comece a escrever\r\n<p>Fsjdfhksjdfhksjdfhksdjf<\/p>\nGghhgggg","id":93,"sync":true,"titulo":"Teste"},{"data_hora":"2020-01-21 14:24:35","deleted":false,"descricao":"Bhh","id":96,"sync":true,"titulo":"1"},{"data_hora":"2020-01-21 14:24:44","deleted":false,"descricao":"Bbhj","id":97,"sync":true,"titulo":"2"},{"data_hora":"2020-01-21 14:25:44","deleted":false,"descricao":"Este aqui foi colocado manualmente no banco de dados.","id":98,"sync":true,"titulo":"Manual"}]}
+
+Request: 
+
+Array
+(
+    [pendencias] => Array
+        (
+            [0] => Array
+                (
+                    [data_hora] => 2020-01-21 13:58:57
+                    [deleted] => 
+                    [descricao] => Comece a escrever
+<p>Fsjdfhksjdfhksjdfhksdjf</p>
+Gghhgggg
+                    [id] => 93
+                    [sync] => 1
+                    [titulo] => Teste
+                )
+
+            [1] => Array
+                (
+                    [data_hora] => 2020-01-21 14:24:35
+                    [deleted] => 
+                    [descricao] => Bhh
+                    [id] => 96
+                    [sync] => 1
+                    [titulo] => 1
+                )
+
+            [2] => Array
+                (
+                    [data_hora] => 2020-01-21 14:24:44
+                    [deleted] => 
+                    [descricao] => Bbhj
+                    [id] => 97
+                    [sync] => 1
+                    [titulo] => 2
+                )
+
+            [3] => Array
+                (
+                    [data_hora] => 2020-01-21 14:25:44
+                    [deleted] => 
+                    [descricao] => Este aqui foi colocado manualmente no banco de dados.
+                    [id] => 98
+                    [sync] => 1
+                    [titulo] => Manual
+                )
+
+        )
+
+)
+
+
+
+Linhas excluídas: 0

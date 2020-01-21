@@ -62,12 +62,31 @@ function insertUpdatePendencia($request, $update = false)
     }
 }
 
+function deletePendencias($request){
+    global $conexao;
+
+    if (!isset($request['ids']) || !($request['ids'])){
+        throw new Exception('IDs não informados');
+    }
+
+    $res = $conexao->exec('DELETE FROM pendencias where id in ('.implode(',', $request['ids']).')');
+
+    if ($res === false){
+        throw new Exception("Erro ao excluir a(s) pendência(s): \n" . $conexao->errorInfo());
+    }
+
+    return json_encode([
+        'sucesso' => true, 'mensagem' => "Registros excluídos: $res"
+    ]);
+}
+
 function sincronizarPendencias($request)
 {
     global $conexao;
     $listaPendencias = [];
 
     $pendencias = isset($request['pendencias']) ? $request['pendencias'] : [];
+    $idsDeletar = [];
 
     foreach ($pendencias as $pendencia) {
         if (!isset($pendencia['id']) || empty($pendencia['id'])) {
@@ -76,11 +95,13 @@ function sincronizarPendencias($request)
 
         $id = $pendencia['id'];
         $sync = isset($pendencia['sync']) ? $pendencia['sync'] : false;
-        $idsDeletar = [];
         $query = $conexao->query("SELECT * FROM pendencias WHERE id=$id");
         if ($query && $row = $query->fetch(PDO::FETCH_ASSOC)) {
-            if (isset($pendencia['delete']) && $pendencia['delete']) {
+            
+            if (isset($pendencia['deleted']) && $pendencia['deleted']) {
                 $idsDeletar[] = $id;
+                gravarLog("ID: $id");
+                gravarLog('Pendências deletar: ' . print_r($idsDeletar, true));
                 continue;
             }
 
@@ -105,7 +126,8 @@ function sincronizarPendencias($request)
     }
 
     if (count($idsDeletar) > 0) {
-        $conexao->exec('DELETE FROM pendencias where id in ('.implode(',', $idsDeletar).')');
+        $intExc = $conexao->exec('DELETE FROM pendencias where id in ('.implode(',', $idsDeletar).')');
+        gravarLog('Linhas excluídas: ' . $intExc);
     }
 
     $pendencias = json_decode(getPendencias(), true) ?: [];
